@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style.css">
+	<title>Team Game - Card Flipper</title>
+</head>
+
+<body style="position:relative;">
+	<div class="container">
+		<h1>Who is the Scrum Master?</h1>
+		<form id="nameForm">
+			<input type="text" id="nameInput" placeholder="Enter name" autocomplete="off" required>
+			<button type="submit">Add Name</button>
+		</form>
+		<div id="recentNames" style="margin-bottom:12px;"></div>
+		<div id="namesList"></div>
+		<button id="startBtn" disabled>Start Game</button>
+		<div id="announcement"></div>
+		<div class="cards" id="cardsArea"></div>
+		<canvas id="confetti-canvas" style="position:fixed;top:0;left:0;width:100vw;height:100vh;pointer-events:none;z-index:999;display:none;"></canvas>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
