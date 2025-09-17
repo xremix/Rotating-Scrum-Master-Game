@@ -1,7 +1,7 @@
 
 # Rotating Scrum Master Game
 
-[Run it here]([e04cb7877a0f6a64c0c1ce7351d2b/index.html](https://raw.githack.com/xremix/Rotating-Scrum-Master-Game/main/index.html))
+[Run it here](https://raw.githack.com/xremix/Rotating-Scrum-Master-Game/main/index.html)
 
 A playful web app to randomly rotate the Scrum Master role in your team. Built for fun, not for quality—embracing the chaos of vibe coding.
 
